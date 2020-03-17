@@ -16,6 +16,6 @@ class Circle {
     return 3.14 * this.radius**2
   }
   set diameter(diameter){
-   return this._radius*diameter;
+   return this._radius*2;
   }
 }
