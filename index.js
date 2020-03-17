@@ -15,7 +15,7 @@ class Circle {
   get area () {
     return 3.14 * this.radius**2
   }
-  set _diameter(newDiameter){
-    
+  set diameter(diameter){
+    this._diameter = diameter;
   }
 }
