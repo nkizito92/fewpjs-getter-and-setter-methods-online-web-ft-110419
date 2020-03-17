@@ -9,7 +9,7 @@ class Circle {
   }
   
   get circumference () {
-    
+    return 3.14 * this.diameter
   }
   set (){}
 }
